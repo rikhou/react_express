@@ -7,6 +7,7 @@ module.exports = {
     client: ["./client", hotMiddlewareScript]
   },
   mode: "development",
+  devtool: 'source-map',
   module: {
     rules: [
       {
